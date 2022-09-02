@@ -1,0 +1,471 @@
+@import url('https://fonts.googleapis.com/css2?family=Arima:wght@400;700&display=swap%27');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Arima", cursive;
+    background: url(/Todolist/pexels-photo-2736499.jpeg) no-repeat;
+    background-size: cover;
+    background-color: black;
+    
+}
+
+h1{
+    margin-bottom: 5vh;
+}
+/*  */
+.container{
+    height: 100vh;
+    margin: 0 auto; /*pour centrer  */
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left:0vh; top:0vh;
+    overflow: scroll;
+
+    
+
+}
+
+form{
+    padding: 10px;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+input[type='text']{
+    padding: 10px;
+    border: 2px solid rgb(204, 204, 204);
+    border-radius: 5px;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+input[type='checkbox']{
+    margin-left: 10px;
+    cursor: pointer;
+    display: flex;
+    justify-items: center;
+}
+
+button{
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+
+.todo-btn, .todo-delete-all{
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    cursor: pointer;
+    background-color: rgba(250, 250, 206, 0.644);;
+    border: none; 
+}
+
+.todo-list{
+    width: 30vh;
+    display: flex;
+    flex-direction: column;
+   
+
+}
+
+.todo-delete-all{
+    border: none;
+    color: #000;
+    background-color: rgba(250, 250, 206, 0.644);
+}
+
+.todo-delete-one{
+    display: flex;
+    justify-items: center;
+    font-size: 1rem;
+    font-weight: bold;
+    color: red;
+    background: none;
+    border: none;
+
+}
+
+li{
+    width: 100%;
+    height: 4ch;
+    background-color: rgba(255, 255, 255, 0.381);
+    border-radius: 10px;
+    /* box-shadow: 0 0 3px; */
+    border: none;
+
+    padding: 5px;
+    margin-bottom: 5px;
+
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer{
+    width: 100%;
+    height: 15vh;
+    position: absolute;
+    top: 85vh; left: 0vh;
+    /* margin-top: 19vh; */
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(62deg, #8ec5fc73 0%, #e0c3fc6c 100%);
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
